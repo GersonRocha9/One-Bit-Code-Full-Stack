@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro da Liga dos Astronautas</title>
+</head>
+<body>
+  <h3>Cadastro da liga dos astronautas</h3>
+  <form action="#">
+
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome" required>
+    <br><br>
+
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" required>
+    <label for="pass"> - Password: </label>
+    <input type="password" name="pass" id="pass" required>
+    <br><br>
+  
+    <label for="data_nasc">Data de nascimento:</label>
+    <input type="date" name="data_nasc" id="data_nasc" required>
+    <label for="foto"> - Foto: </label>
+    <input type="file" name="foto" id="foto" required>
+    <br><br>
+
+    <label for="nacionalidade">Nacionalidade:</label>
+    <input list="nacionalidades" required>
+    <datalist id="nacionalidades">
+      <option value="Russo">
+      <option value="Americano">
+      <option value="Brasileiro">
+    </datalist>
+
+    <label for="gender"> - Gênero: </label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">F</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">M</label>
+    <br><br>
+
+    <label for="qualidades">Suas principais qualidades:</label><br>
+    <input type="checkbox" id="qualidade1" name="qualidade1" value="Inteligencia" required>
+    <label for="qualidade1"> Inteligência </label>
+    <input type="checkbox" id="qualidade2" name="qualidade2" value="Resiliencia">
+    <label for="qualidade2"> | Resiliência</label>
+    <input type="checkbox" id="qualidade3" name="qualidade3" value="PreparoFis">
+    <label for="qualidade3"> | Preparo Físico</label>
+    <input type="checkbox" id="qualidade4" name="qualidade4" value="Educacao">
+    <label for="qualidade4"> | Educação</label>
+    <br><br>
+
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Porque você gostaria de ser um astronauta?"></textarea>
+    <br><br>
+
+    <input type="submit" value="Criar">
+
+  </form>
+  
+</body>
+</html>
