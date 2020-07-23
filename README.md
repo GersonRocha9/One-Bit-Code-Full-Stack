@@ -5,7 +5,7 @@
 ### Curso realizado por Leonardo Scorza e Daniel Moreto com projetos e aprendizados nas tecnologias HTML 5, CSS, Bulma, Javascript, Git e Github, Javascript moderno (ES6+), React, NodeJs e MongoDB.
 
 
-SEMANA01:
+SEMANA 01:
 
 -> Dia 01 - Estrutura básica de HTML, listas e Exercício sobre listas
 
