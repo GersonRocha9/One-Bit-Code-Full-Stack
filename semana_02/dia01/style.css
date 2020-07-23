@@ -1,3 +1,9 @@
-h1 {color: purple;}
-h4 {color: yellow;}
-ul {color: red;}
+body {
+  color: yellow;
+  background-image: url(https://i.pinimg.com/originals/00/2b/20/002b20c979ec648a0adf6b3f2f993f7d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: rgb(180, 88, 3);
+  border-width: 8px;
+  border-style: dotted;
+}
